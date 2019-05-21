@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO.Pipes;
 using System.Threading;
-using TestMonitor;
+using NewMesMonitor;
 
 namespace BlackoutMess
 {

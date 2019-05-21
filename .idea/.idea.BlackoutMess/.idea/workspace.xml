@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c78d8b54-1473-4633-b63a-27eaa38c2bae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackoutMess/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackoutMess/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackoutMess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackoutMess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackoutMess.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BlackoutMess.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlackoutMess/BlackoutMess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlackoutMess/BlackoutMess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,155 +16,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlackoutMess/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding>
-                <marker date="1558448798764" expanded="true" signature="22:132" ph="{...}" />
-                <marker date="1558448798764" expanded="true" signature="51:130" ph="{...}" />
-                <marker date="1558448798764" expanded="true" signature="104:124" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlackoutMess/DBHelper.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <marker date="1558450006496" expanded="true" signature="6:77" ph="..." />
-                <marker date="1558450006496" expanded="true" signature="101:11041" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="129:11039" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="322:437" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="550:1388" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="1197:1252" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="1391:1497" ph="/* public int RegisterUser(string userName, string password) ... */" />
-                <marker date="1558450006496" expanded="true" signature="1507:1923" ph="/// Authenticates user. ... " />
-                <marker date="1558450006496" expanded="true" signature="1992:3184" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="2430:2485" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="3091:3150" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="3194:3629" ph="/// Gets list of data of all active chats for user. ... " />
-                <marker date="1558450006496" expanded="true" signature="3708:4691" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="4330:4387" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="4485:4624" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="4763:5481" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="5344:5414" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="5491:5789" ph="/// Finds user in DB. ... " />
-                <marker date="1558450006496" expanded="true" signature="5840:6371" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="6179:6234" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="6381:6895" ph="/// Returns the specified number of last messages for chat. ... " />
-                <marker date="1558450006496" expanded="true" signature="7003:8321" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="8005:8062" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="8143:8254" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="8331:9043" ph="/// Returns the specified number of messages up to the lower limit. ... " />
-                <marker date="1558450006496" expanded="true" signature="9184:11033" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="10716:10773" ph="{...}" />
-                <marker date="1558450006496" expanded="true" signature="10855:10966" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlackoutMess/Printer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-              <folding>
-                <marker date="1558450166110" expanded="true" signature="6:128" ph="..." />
-                <marker date="1558450166110" expanded="true" signature="152:4318" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="179:4316" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="241:1523" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="667:1419" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="823:1401" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="1109:1378" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="1593:2684" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="1854:2580" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="2010:2562" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="2278:2539" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="2750:4310" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="3011:4206" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="3197:4188" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="3561:4165" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="3639:3809" ph="{...}" />
-                <marker date="1558450166110" expanded="true" signature="3882:4052" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlackoutMess/Setting.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding>
-                <marker date="1558450221218" expanded="true" signature="6:32" ph="..." />
-                <marker date="1558450221218" expanded="true" signature="56:862" ph="{...}" />
-                <marker date="1558450221218" expanded="true" signature="83:860" ph="{...}" />
-                <marker date="1558450221218" expanded="true" signature="269:452" ph="{...}" />
-                <marker date="1558450221218" expanded="true" signature="367:442" ph="{...}" />
-                <marker date="1558450221218" expanded="true" signature="506:580" ph="{...}" />
-                <marker date="1558450221218" expanded="true" signature="674:854" ph="{...}" />
-                <marker date="1558450221218" expanded="true" signature="729:817" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlackoutMess/Settings.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <marker date="1558450248688" expanded="true" signature="57:707" ph="{...}" />
-                <marker date="1558450248688" expanded="true" signature="85:705" ph="{...}" />
-                <marker date="1558450248688" expanded="true" signature="155:489" ph="{...}" />
-                <marker date="1558450248688" expanded="true" signature="533:579" ph="{...}" />
-                <marker date="1558450248688" expanded="true" signature="627:699" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NewMesMonitor/NewMesMonitor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding>
+                <marker date="1558450686848" expanded="false" signature="6:69" ph="..." />
+                <marker date="1558450686848" expanded="true" signature="94:1438" ph="{...}" />
+                <marker date="1558450686848" expanded="true" signature="129:1436" ph="{...}" />
+                <marker date="1558450686848" expanded="true" signature="373:1430" ph="{...}" />
+                <marker date="1558450686848" expanded="true" signature="499:623" ph="/* Console.SetBufferSize(CustomConsoleWidth, CustomConsoleHeight); ... */" />
+                <marker date="1558450686848" expanded="true" signature="1057:1387" ph="{...}" />
+                <marker date="1558450686848" expanded="true" signature="1100:1373" ph="{...}" />
+                <marker date="1558450686848" expanded="true" signature="1204:1279" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
-                <marker date="1558450403197" expanded="true" signature="6:139" ph="..." />
-                <marker date="1558450403197" expanded="true" signature="163:5391" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="198:5389" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="500:753" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="816:1242" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="930:1232" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="1279:1896" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="1561:1666" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="1705:1778" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="1819:1886" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="1939:2035" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="2085:2560" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="2224:2465" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="2604:4399" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="2890:3019" ph="/* Read the request from the client. Once the client has ... */" />
-                <marker date="1558450403197" expanded="true" signature="3094:3199" ph="/* Verify our identity to the connected client using a ... */" />
-                <marker date="1558450403197" expanded="true" signature="3299:4319" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="3417:3912" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="3486:3640" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="3665:3894" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="3933:4028" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="4064:4267" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="4459:5383" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="4541:5373" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="4608:5323" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="4675:4750" ph="{...}" />
-                <marker date="1558450403197" expanded="true" signature="4899:5305" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="6:141" ph="..." />
+                <marker date="1558450697738" expanded="true" signature="165:5393" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="200:5391" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="502:755" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="818:1244" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="932:1234" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="1281:1898" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="1563:1668" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="1707:1780" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="1821:1888" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="1941:2037" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="2087:2562" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="2226:2467" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="2606:4401" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="2892:3021" ph="/* Read the request from the client. Once the client has ... */" />
+                <marker date="1558450697738" expanded="true" signature="3096:3201" ph="/* Verify our identity to the connected client using a ... */" />
+                <marker date="1558450697738" expanded="true" signature="3301:4321" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="3419:3914" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="3488:3642" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="3667:3896" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="3935:4030" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="4066:4269" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="4461:5385" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="4543:5375" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="4610:5325" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="4677:4752" ph="{...}" />
+                <marker date="1558450697738" expanded="true" signature="4901:5307" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -172,6 +79,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NewMesMonitor/StreamString.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Message.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Settings.cs" root0="FORCE_HIGHLIGHTING" />
@@ -180,6 +88,7 @@
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Setting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Printer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NewMesMonitor/NewMesMonitor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -190,7 +99,10 @@
         <option value="$PROJECT_DIR$/BlackoutMess/Setting.cs" />
         <option value="$PROJECT_DIR$/BlackoutMess/Settings.cs" />
         <option value="$PROJECT_DIR$/BlackoutMess/ChatDatManager.cs" />
+        <option value="$PROJECT_DIR$/NewMesMonitor/StreamString.cs" />
+        <option value="$PROJECT_DIR$/NewMesMonitor/Program.cs" />
         <option value="$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs" />
+        <option value="$PROJECT_DIR$/NewMesMonitor/NewMesMonitor.cs" />
       </list>
     </option>
   </component>
@@ -219,6 +131,11 @@
               <item name="BlackoutMess" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BlackoutMess" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BlackoutMess" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NewMesMonitor" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/MySQL Connector Net 8.0.16/Assemblies/v4.5.2/MySql.Data.dll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test/TestMonitor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,12 +190,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558446674203</updated>
       <workItem from="1558446677420" duration="805000" />
-      <workItem from="1558448737811" duration="1311000" />
+      <workItem from="1558448737811" duration="1604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1318000" />
+    <option name="totallyTimeSpent" value="1611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,7 +210,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -425,7 +342,7 @@
     <entry file="file://$PROJECT_DIR$/BlackoutMess/Setting.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
             <marker date="1558450221218" expanded="true" signature="6:32" ph="..." />
             <marker date="1558450221218" expanded="true" signature="56:862" ph="{...}" />
@@ -453,38 +370,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NewMesMonitor/StreamString.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <marker date="1558450566145" expanded="true" signature="6:49" ph="..." />
+            <marker date="1558450566145" expanded="true" signature="74:1178" ph="{...}" />
+            <marker date="1558450566145" expanded="true" signature="106:1176" ph="{...}" />
+            <marker date="1558450566145" expanded="true" signature="239:349" ph="{...}" />
+            <marker date="1558450566145" expanded="true" signature="385:657" ph="{...}" />
+            <marker date="1558450566145" expanded="true" signature="707:1170" ph="{...}" />
+            <marker date="1558450566145" expanded="true" signature="863:936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <marker date="1558450403197" expanded="true" signature="6:139" ph="..." />
-            <marker date="1558450403197" expanded="true" signature="163:5391" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="198:5389" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="500:753" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="816:1242" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="930:1232" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="1279:1896" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="1561:1666" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="1705:1778" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="1819:1886" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="2085:2560" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="2224:2465" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="2604:4399" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="2890:3019" ph="/* Read the request from the client. Once the client has ... */" />
-            <marker date="1558450403197" expanded="true" signature="3094:3199" ph="/* Verify our identity to the connected client using a ... */" />
-            <marker date="1558450403197" expanded="true" signature="3299:4319" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="3417:3912" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="3486:3640" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="3665:3894" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="3933:4028" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="4064:4267" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="4459:5383" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="4541:5373" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="4608:5323" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="4675:4750" ph="{...}" />
-            <marker date="1558450403197" expanded="true" signature="4899:5305" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="6:141" ph="..." />
+            <marker date="1558450697738" expanded="true" signature="165:5393" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="200:5391" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="502:755" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="818:1244" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="932:1234" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="1281:1898" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="1563:1668" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="1707:1780" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="1821:1888" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="1941:2037" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="2087:2562" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="2226:2467" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="2606:4401" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="2892:3021" ph="/* Read the request from the client. Once the client has ... */" />
+            <marker date="1558450697738" expanded="true" signature="3096:3201" ph="/* Verify our identity to the connected client using a ... */" />
+            <marker date="1558450697738" expanded="true" signature="3301:4321" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="3419:3914" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="3488:3642" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="3667:3896" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="3935:4030" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="4066:4269" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="4461:5385" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="4543:5375" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="4610:5325" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="4677:4752" ph="{...}" />
+            <marker date="1558450697738" expanded="true" signature="4901:5307" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewMesMonitor/NewMesMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <marker date="1558450686848" expanded="false" signature="6:69" ph="..." />
+            <marker date="1558450686848" expanded="true" signature="94:1438" ph="{...}" />
+            <marker date="1558450686848" expanded="true" signature="129:1436" ph="{...}" />
+            <marker date="1558450686848" expanded="true" signature="373:1430" ph="{...}" />
+            <marker date="1558450686848" expanded="true" signature="499:623" ph="/* Console.SetBufferSize(CustomConsoleWidth, CustomConsoleHeight); ... */" />
+            <marker date="1558450686848" expanded="true" signature="1057:1387" ph="{...}" />
+            <marker date="1558450686848" expanded="true" signature="1100:1373" ph="{...}" />
+            <marker date="1558450686848" expanded="true" signature="1204:1279" ph="{...}" />
           </folding>
         </state>
       </provider>
