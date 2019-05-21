@@ -18,7 +18,7 @@ namespace NewMesMonitor
 
 
             NamedPipeClientStream pipeClient =
-                new NamedPipeClientStream(".", "testpipe",
+                new NamedPipeClientStream(".", "monitorpipe",
                     PipeDirection.InOut, PipeOptions.None,
                     TokenImpersonationLevel.Impersonation);
 

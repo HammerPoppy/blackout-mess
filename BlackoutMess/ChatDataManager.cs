@@ -90,10 +90,10 @@ namespace BlackoutMess
 
         public static void UpdateMonitor()
         {
-            Process.Start("TestMonitor.exe");
+            Process.Start("NewMesMonitor.exe");
 
             NamedPipeServerStream pipeServer =
-                new NamedPipeServerStream("testpipe", PipeDirection.InOut, 1);
+                new NamedPipeServerStream("monitorpipe", PipeDirection.InOut, 1);
 
             // Wait for a client to connect
             pipeServer.WaitForConnection();
