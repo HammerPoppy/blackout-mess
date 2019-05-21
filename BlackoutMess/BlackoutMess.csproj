@@ -48,6 +48,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="ChatData.cs" />
+        <Compile Include="ChatDataManager.cs" />
         <Compile Include="DBHelper.cs" />
         <Compile Include="Message.cs" />
         <Compile Include="Printer.cs" />

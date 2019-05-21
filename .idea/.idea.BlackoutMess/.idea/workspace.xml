@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78d8b54-1473-4633-b63a-27eaa38c2bae" name="Default Changelist" comment="" />
+    <list default="true" id="c78d8b54-1473-4633-b63a-27eaa38c2bae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BlackoutMess/BlackoutMess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlackoutMess/BlackoutMess.csproj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlackoutMess/Printer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
@@ -91,6 +93,79 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BlackoutMess/Setting.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding>
+                <marker date="1558450221218" expanded="true" signature="6:32" ph="..." />
+                <marker date="1558450221218" expanded="true" signature="56:862" ph="{...}" />
+                <marker date="1558450221218" expanded="true" signature="83:860" ph="{...}" />
+                <marker date="1558450221218" expanded="true" signature="269:452" ph="{...}" />
+                <marker date="1558450221218" expanded="true" signature="367:442" ph="{...}" />
+                <marker date="1558450221218" expanded="true" signature="506:580" ph="{...}" />
+                <marker date="1558450221218" expanded="true" signature="674:854" ph="{...}" />
+                <marker date="1558450221218" expanded="true" signature="729:817" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BlackoutMess/Settings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <marker date="1558450248688" expanded="true" signature="57:707" ph="{...}" />
+                <marker date="1558450248688" expanded="true" signature="85:705" ph="{...}" />
+                <marker date="1558450248688" expanded="true" signature="155:489" ph="{...}" />
+                <marker date="1558450248688" expanded="true" signature="533:579" ph="{...}" />
+                <marker date="1558450248688" expanded="true" signature="627:699" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <marker date="1558450403197" expanded="true" signature="6:139" ph="..." />
+                <marker date="1558450403197" expanded="true" signature="163:5391" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="198:5389" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="500:753" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="816:1242" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="930:1232" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="1279:1896" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="1561:1666" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="1705:1778" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="1819:1886" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="1939:2035" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="2085:2560" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="2224:2465" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="2604:4399" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="2890:3019" ph="/* Read the request from the client. Once the client has ... */" />
+                <marker date="1558450403197" expanded="true" signature="3094:3199" ph="/* Verify our identity to the connected client using a ... */" />
+                <marker date="1558450403197" expanded="true" signature="3299:4319" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="3417:3912" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="3486:3640" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="3665:3894" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="3933:4028" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="4064:4267" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="4459:5383" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="4541:5373" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="4608:5323" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="4675:4750" ph="{...}" />
+                <marker date="1558450403197" expanded="true" signature="4899:5305" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -99,9 +174,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Message.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlackoutMess/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/ChatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/DBHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlackoutMess/Setting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackoutMess/Printer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,11 +187,15 @@
         <option value="$PROJECT_DIR$/BlackoutMess/Message.cs" />
         <option value="$PROJECT_DIR$/BlackoutMess/DBHelper.cs" />
         <option value="$PROJECT_DIR$/BlackoutMess/Printer.cs" />
+        <option value="$PROJECT_DIR$/BlackoutMess/Setting.cs" />
+        <option value="$PROJECT_DIR$/BlackoutMess/Settings.cs" />
+        <option value="$PROJECT_DIR$/BlackoutMess/ChatDatManager.cs" />
+        <option value="$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -191,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558446674203</updated>
       <workItem from="1558446677420" duration="805000" />
-      <workItem from="1558448737811" duration="1111000" />
+      <workItem from="1558448737811" duration="1311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1118000" />
+    <option name="totallyTimeSpent" value="1318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,6 +418,73 @@
             <marker date="1558450166110" expanded="true" signature="3561:4165" ph="{...}" />
             <marker date="1558450166110" expanded="true" signature="3639:3809" ph="{...}" />
             <marker date="1558450166110" expanded="true" signature="3882:4052" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackoutMess/Setting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <marker date="1558450221218" expanded="true" signature="6:32" ph="..." />
+            <marker date="1558450221218" expanded="true" signature="56:862" ph="{...}" />
+            <marker date="1558450221218" expanded="true" signature="83:860" ph="{...}" />
+            <marker date="1558450221218" expanded="true" signature="269:452" ph="{...}" />
+            <marker date="1558450221218" expanded="true" signature="367:442" ph="{...}" />
+            <marker date="1558450221218" expanded="true" signature="506:580" ph="{...}" />
+            <marker date="1558450221218" expanded="true" signature="674:854" ph="{...}" />
+            <marker date="1558450221218" expanded="true" signature="729:817" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackoutMess/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1558450248688" expanded="true" signature="57:707" ph="{...}" />
+            <marker date="1558450248688" expanded="true" signature="85:705" ph="{...}" />
+            <marker date="1558450248688" expanded="true" signature="155:489" ph="{...}" />
+            <marker date="1558450248688" expanded="true" signature="533:579" ph="{...}" />
+            <marker date="1558450248688" expanded="true" signature="627:699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackoutMess/ChatDataManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <marker date="1558450403197" expanded="true" signature="6:139" ph="..." />
+            <marker date="1558450403197" expanded="true" signature="163:5391" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="198:5389" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="500:753" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="816:1242" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="930:1232" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="1279:1896" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="1561:1666" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="1705:1778" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="1819:1886" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="1939:2035" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="2085:2560" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="2224:2465" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="2604:4399" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="2890:3019" ph="/* Read the request from the client. Once the client has ... */" />
+            <marker date="1558450403197" expanded="true" signature="3094:3199" ph="/* Verify our identity to the connected client using a ... */" />
+            <marker date="1558450403197" expanded="true" signature="3299:4319" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="3417:3912" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="3486:3640" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="3665:3894" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="3933:4028" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="4064:4267" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="4459:5383" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="4541:5373" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="4608:5323" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="4675:4750" ph="{...}" />
+            <marker date="1558450403197" expanded="true" signature="4899:5305" ph="{...}" />
           </folding>
         </state>
       </provider>
