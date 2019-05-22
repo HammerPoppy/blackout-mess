@@ -90,9 +90,8 @@ namespace BlackoutMess
                 chosenChat.initMessages(dbHelper.GetLastMessages(messagesNum, id_currentUser, id_targetUser));
             }
 
-            chosenChat.CountNewMes = 0;
-
             Printer.PrintChat(chosenChat);
+            chosenChat.CountNewMes = 0;
             return chosenChat.IdUser;
         }
 
