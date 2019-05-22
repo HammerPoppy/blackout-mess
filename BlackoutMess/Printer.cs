@@ -122,6 +122,7 @@ namespace BlackoutMess
                 new Tuple<string, string>("/chats, /c", "shows chats list"),
                 new Tuple<string, string>("/redraw, /r", "updates current view"),
                 new Tuple<string, string>("/add username, /a username", "adds chat with user"),
+                new Tuple<string, string>("/exit, /e, /quit, /q", "closes app"),
                 new Tuple<string, string>("any other text", "sends message to chat")
             };
 
