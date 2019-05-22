@@ -54,8 +54,8 @@ namespace BlackoutMess
                     Columns = {GridLength.Auto, GridLength.Star(1)},
                     Children =
                     {
-                        new Cell("ID") {Align = Align.Right, Stroke = headerThickness},
-                        new Cell("Username") {Align = Align.Center, Stroke = headerThickness},
+                        new Cell("ID ") {Align = Align.Right, Stroke = headerThickness},
+                        new Cell("Username") {Align = Align.Left, Stroke = headerThickness},
 
                         chats.Select(item => new object[]
                         {
