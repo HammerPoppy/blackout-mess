@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace BlackoutMess
 {
@@ -22,6 +22,7 @@ namespace BlackoutMess
                 result = chatDataManager.AuthUser(userName, password);
             } while (result != 0);
             
+            chatDataManager.PrintAvailableChats();
             
         }
     }
