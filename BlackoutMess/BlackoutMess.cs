@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel.Design;
 
 namespace BlackoutMess
@@ -81,6 +81,11 @@ namespace BlackoutMess
                                 Printer.PrintSettings(settings.GetSettings());
                                 break;
                         }
+                    }
+                    else if (decomposedInput[0] == "/exit" || decomposedInput[0] == "/e" ||
+                             decomposedInput[0] == "/quit" || decomposedInput[0] == "/q")
+                    {
+                        shouldExit = true;
                     }
                 }
             } while (!shouldExit);
