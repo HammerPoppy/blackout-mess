@@ -28,6 +28,7 @@ namespace BlackoutMess
 
             if (!reader.Read())
             {
+                reader.Close();
                 return -1;
             }
 
