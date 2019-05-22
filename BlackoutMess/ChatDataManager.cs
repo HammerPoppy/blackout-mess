@@ -34,10 +34,10 @@ namespace BlackoutMess
             switch (id_currentUser)
             {
                 case -1:
-                    Console.WriteLine("Wrong name!");
+                    Console.WriteLine("ERROR: Wrong username.");
                     return -1;
                 case -2:
-                    Console.WriteLine("Wrong PWD!");
+                    Console.WriteLine("ERROR: Wrong password");
                     return -2;
                 default:
                     return 0;
