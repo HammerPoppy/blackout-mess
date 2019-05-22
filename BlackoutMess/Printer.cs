@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using Alba.CsConsoleFormat;
 using static System.ConsoleColor;
@@ -106,6 +107,46 @@ namespace BlackoutMess
             );
 
             Console.Clear();
+            ConsoleRenderer.RenderDocument(doc);
+        }
+
+        public static void PrintHelp()
+        {
+            var headerThickness = new LineThickness(LineWidth.None, LineWidth.None);
+            var messageThickness = new LineThickness(LineWidth.None, LineWidth.None);
+
+            Tuple<string, string>[] items =
+            {
+                new Tuple<string, string>("/help, /h", "shows help"),
+                new Tuple<string, string>("/open chat_ID, /o chat_ID", "opens chat with specified ID"),
+                new Tuple<string, string>("/chats, /c", "shows chats list"),
+                new Tuple<string, string>("/redraw, /r", "updates current view"),
+                new Tuple<string, string>("/add username, /a username", "adds chat with user"),
+                new Tuple<string, string>("any other text", "sends message to chat")
+            };
+
+            var doc = new Document(
+                new Grid
+                {
+                    Color = Gray,
+                    Columns = {GridLength.Auto, GridLength.Star(1)},
+                    Children =
+                    {
+                        new Cell("command ") {Align = Align.Center, Stroke = headerThickness, Color = ConsoleColor.Blue},
+                        new Cell("description") {Align = Align.Left, Stroke = headerThickness},
+
+                        items.Select(item => new object[]
+                        {
+                            new Cell(item.Item1 + " ")
+                            {
+                                Align = Align.Left, Stroke = messageThickness
+                            },
+                            new Cell(item.Item2) {Stroke = LineThickness.None}
+                        })
+                    }
+                }
+            );
+            
             ConsoleRenderer.RenderDocument(doc);
         }
     }

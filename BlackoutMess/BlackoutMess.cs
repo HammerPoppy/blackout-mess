@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.Design;
 
 namespace BlackoutMess
 {
@@ -24,6 +25,7 @@ namespace BlackoutMess
             
             chatDataManager.PrintAvailableChats();
             
+            Printer.PrintHelp();
         }
     }
 }
