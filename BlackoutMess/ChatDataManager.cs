@@ -73,9 +73,16 @@ namespace BlackoutMess
             Printer.PrintAvailableChats(chats);
         }
 
-        public void PrintChat(int id_targetUser)
+        // returns -1 if that chat doesnt exist, userID otherwise
+        public int PrintChat(int id_targetUser)
         {
+            if (!chats.Exists(x => x.IdUser == id_targetUser))
+            {
+                return -1;
+            }
+
             ChatData chosenChat = chats.Find(x => x.IdUser == id_targetUser);
+
             if (chosenChat.IsInitialized == false)
             {
                 int messagesNum = Convert.ToInt32(Settings.GetSetting("messages to display").State);
@@ -86,6 +93,7 @@ namespace BlackoutMess
             chosenChat.CountNewMes = 0;
 
             Printer.PrintChat(chosenChat);
+            return chosenChat.IdUser;
         }
 
         public static void UpdateMonitor()
