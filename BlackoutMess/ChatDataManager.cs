@@ -159,7 +159,7 @@ namespace BlackoutMess
                 {
                     if (!chatData.IsInitialized)
                     {
-                        break;
+                        continue;
                     }
 
                     int idLastMes = dbHelper.GetIdLastMes(id_currentUser, chatData.IdUser);
