@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel.Design;
 
 namespace BlackoutMess
@@ -50,16 +50,29 @@ namespace BlackoutMess
 
                     if (decomposedInput[0] == "/open" || decomposedInput[0] == "/o")
                     {
-                        int id_targetUser = int.Parse(decomposedInput[1].ToString());
-                        int returned = chatDataManager.PrintChat(id_targetUser);
-                        if (returned == -1)
+                        if (decomposedInput.Length <= 1 || decomposedInput[1] == "")
                         {
-                            Console.WriteLine("There is no chat with this ID.");
+                            Console.WriteLine("No arguments specified. Usage: /open chat_ID.");
                         }
                         else
                         {
-                            id_currentChat = returned;
-                            _currentState = States.ChatView;
+                            if (!int.TryParse(decomposedInput[1].ToString(), out int id_targetUser))
+                            {
+                                Console.WriteLine("Invalid argument.");
+                            }
+                            else
+                            {
+                                int returned = chatDataManager.PrintChat(id_targetUser);
+                                if (returned == -1)
+                                {
+                                    Console.WriteLine("There is no chat with this ID.");
+                                }
+                                else
+                                {
+                                    id_currentChat = returned;
+                                    _currentState = States.ChatView;
+                                }
+                            }
                         }
                     }
                     else if (decomposedInput[0] == "/chats" || decomposedInput[0] == "/c")
