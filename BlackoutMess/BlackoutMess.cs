@@ -62,6 +62,11 @@ namespace BlackoutMess
                             _currentState = States.ChatView;
                         }
                     }
+                    else if (decomposedInput[0] == "/chats" || decomposedInput[0] == "/c")
+                    {
+                        chatDataManager.PrintAvailableChats();
+                        _currentState = States.AvailableChatsView;
+                    }
                 }
             } while (!shouldExit);
         }
