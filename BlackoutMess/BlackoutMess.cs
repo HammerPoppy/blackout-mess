@@ -100,6 +100,10 @@ namespace BlackoutMess
                     {
                         shouldExit = true;
                     }
+                    else if (decomposedInput[0] == "/help" || decomposedInput[0] == "/h")
+                    {
+                        Printer.PrintHelp();
+                    }
                 }
             } while (!shouldExit);
         }
