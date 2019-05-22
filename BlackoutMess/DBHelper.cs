@@ -64,6 +64,7 @@ namespace BlackoutMess
 
             if (!reader.HasRows)
             {
+                reader.Close();
                 return -1;
             }
 
@@ -85,6 +86,7 @@ namespace BlackoutMess
             reader.Close();
             if (receivedPassword == password)
             {
+                reader.Close();
                 return userId;
             }
 
@@ -112,6 +114,7 @@ namespace BlackoutMess
 
             if (!reader.HasRows)
             {
+                reader.Close();
                 return null;
             }
 
@@ -166,6 +169,7 @@ namespace BlackoutMess
 
             if (!reader.HasRows)
             {
+                reader.Close();
                 return -1;
             }
 
@@ -204,6 +208,7 @@ namespace BlackoutMess
 
             if (!reader.HasRows)
             {
+                reader.Close();
                 return null;
             }
 
@@ -254,6 +259,7 @@ namespace BlackoutMess
 
             if (!reader.HasRows)
             {
+                reader.Close();
                 return null;
             }
 
